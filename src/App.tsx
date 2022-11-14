@@ -35,7 +35,12 @@ function App() {
     }
   }, [canvasRef]);
 
-  return <canvas className="Canvas" ref={canvasRef}></canvas>;
+  return (
+    <div className="App">
+      <h2>Basis compression test</h2>
+      <canvas className="Canvas" ref={canvasRef}></canvas>;
+    </div>
+  );
 }
 
 export default App;
