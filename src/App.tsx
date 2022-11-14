@@ -37,12 +37,7 @@ function App() {
     }
   }, [canvasRef]);
 
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-      <canvas className="Canvas" ref={canvasRef}></canvas>
-    </div>
-  );
+  return <canvas className="Canvas" ref={canvasRef}></canvas>;
 }
 
 export default App;
