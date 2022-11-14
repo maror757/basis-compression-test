@@ -27,8 +27,6 @@ function App() {
         });
 
         app.start();
-        canvas.style.width = "";
-        canvas.style.height = "";
       });
     });
   };
@@ -42,12 +40,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <canvas
-        className="Canvas"
-        width={1000}
-        height={700}
-        ref={canvasRef}
-      ></canvas>
+      <canvas className="Canvas" ref={canvasRef}></canvas>
     </div>
   );
 }
