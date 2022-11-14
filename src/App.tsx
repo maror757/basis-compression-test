@@ -25,8 +25,6 @@ function App() {
 
           app.start();
         });
-
-        app.start();
       });
     });
   };
